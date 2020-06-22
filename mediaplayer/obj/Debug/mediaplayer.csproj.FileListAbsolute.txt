@@ -1,0 +1,14 @@
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\bin\Debug\mediaplayer.exe.config
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\bin\Debug\mediaplayer.exe
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\bin\Debug\mediaplayer.pdb
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\mediaplayer.csprojResolveAssemblyReference.cache
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\MainWindow.g.cs
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\App.g.cs
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\mediaplayer_MarkupCompile.cache
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\mediaplayer_MarkupCompile.lref
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\MainWindow.baml
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\mediaplayer.g.resources
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\mediaplayer.Properties.Resources.resources
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\mediaplayer.csproj.GenerateResource.Cache
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\mediaplayer.exe
+c:\users\sourcesnet\documents\visual studio 2017\Projects\mediaplayer\mediaplayer\obj\Debug\mediaplayer.pdb

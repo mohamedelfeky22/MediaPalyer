@@ -1,0 +1,27 @@
+﻿<Window x:Class="mediaplayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mediaplayer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <MediaElement x:Name="mediaElement" Margin="0,-30,230,86" LoadedBehavior="Manual" RenderTransformOrigin="0.499,0.493" Height="413" MediaOpened="mediaElement_mediaopened" VerticalAlignment="Bottom"/>
+        <Slider x:Name="slider" Margin="0,0,230,55" VerticalAlignment="Bottom" Height="26" ValueChanged="slider_ValueChanged"/>
+        <Label x:Name="Volume" Content="Volume" HorizontalAlignment="Right" Margin="0,0,137,19" VerticalAlignment="Bottom" RenderTransformOrigin="0.526,-0.462" Width="70"/>
+        <Slider x:Name="slider1" HorizontalAlignment="Right" Margin="0,0,10,19" VerticalAlignment="Bottom" Width="132" Height="26" Maximum="1" Value="1" ValueChanged="slider1_ValueChanged"/>
+        <Button x:Name="button"  Content="play" Margin="333,0,0,15" VerticalAlignment="Bottom" RenderTransformOrigin="0.013,-0.3" Height="35" Click="button_Click" HorizontalAlignment="Left" Width="45"/>
+        <Button x:Name="button1" Content="pause" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="48" RenderTransformOrigin="2.547,11.65" Margin="264,0,0,15" Height="35" Click="button1_Click_1"/>
+        <Button x:Name="button2" Content="open" VerticalAlignment="Bottom" Margin="22,0,0,15" RenderTransformOrigin="3.133,0.4" HorizontalAlignment="Left" Width="75" Height="35" Click="button2_Click_1"/>
+        <Button x:Name="button3" Content="stop" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="46" RenderTransformOrigin="0.867,3.5" Margin="0,0,349,15" Height="35" Click="button3_Click_1"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Right" Height="23" Margin="0,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="151"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Right" Width="184" RenderTransformOrigin="-0.07,0.37" Margin="0,55,23,153" SelectionChanged="listBox_SelectionChanged"/>
+        <Button x:Name="button4" Content="Choose Playlist" HorizontalAlignment="Right" Margin="0,0,42,97" VerticalAlignment="Bottom" Width="131" Click="button4_Click"/>
+        <Label x:Name="label" Content="Video/Audio" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,7,151,0"/>
+        <Button x:Name="button5" Content="&lt;&lt;" HorizontalAlignment="Right" Margin="0,0,282,15" VerticalAlignment="Bottom" Width="49" Height="35" Click="button5_Click"/>
+        <Button x:Name="button6" Content="&gt;&gt;" HorizontalAlignment="Right" Margin="0,0,212,15" VerticalAlignment="Bottom" Width="51" RenderTransformOrigin="0.987,1.35" Height="35"/>
+        <Button x:Name="button7" Content="&gt;&gt;&gt;" HorizontalAlignment="Left" Margin="199,0,0,15" VerticalAlignment="Bottom" Width="50" Height="35" Click="button7_Click"/>
+        <Button x:Name="button8" Content="&lt;&lt;&lt;" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="59" Margin="122,0,0,15" Height="35" Click="button8_Click"/>
+    </Grid>
+</Window>
